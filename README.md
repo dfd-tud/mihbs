@@ -17,7 +17,7 @@ pip3 install scipy PyWavelets
 ```
 
 ## Structure
-There are three types of tests. Read the paper [ADD LINK TP PAPER HERE??!?] for a further explanation. Please note that term "robustness" used in the paper corresponds to "stability" used in the benchmark.
+There are three types of tests. Read the paper for a further explanation. Please note that term "robustness" used in the paper corresponds to "stability" used in the benchmark.
 
 Every test setting has its own independent subdirectory. In each of the subdirectories `stability/`, `sensitivity/`, `application/` you can find a module named `testrunner.py` and one named `analyser.py`. Common modules like the database connection and the hashing algorithms you can find in the directory `common/`. The databases containing the test results will be placed in a subdirectory named `data/`. If you like, you can create a subdirectory `imagedatasets/` in the root of the project folder that contains the image data sets used for the tests.
 
